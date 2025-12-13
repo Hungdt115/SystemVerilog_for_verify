@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/d/IC_Design/Work/09_SystemVerilog_for_verify/src/apb_mem.sv" into library work
+INFO: [VRFC 10-311] analyzing module apb_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/d/IC_Design/Work/09_SystemVerilog_for_verify/tests/chap1/example1_1.v" into library work
+INFO: [VRFC 10-311] analyzing module example1_1
