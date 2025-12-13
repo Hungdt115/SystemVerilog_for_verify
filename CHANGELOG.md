@@ -1,6 +1,6 @@
-Version | Date       | Author | Description
---------|------------|--------|-------------------------------
-v00.00    | 2025-12-01 | Hung   | Initial version
-v1.1    | 2025-12-05 | Hung   | Add random test and coverage
-v1.2    | 2025-12-13 | Hung   | Fix APB write timing issue
+Version  | Date       | Author | Description
+---------|------------|--------|-------------------------------
+v1.0.0   | 2025-12-12 | Hung   | First commit
+v1.1.0   | 2025-12-12 | Hung   | Add APB write transaction example
+v1.2.0   | 2025-12-13 | Hung   | Add APB write as task example
 
