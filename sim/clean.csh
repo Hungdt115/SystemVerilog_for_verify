@@ -1,7 +1,7 @@
 #!/bin/csh
 
 echo "Cleaning up simulation files..."
-rm -f ../log/*
+rm -rf ../log/*
 rm -f *.log
 rm -f *.wdb
 rm -f *.pb

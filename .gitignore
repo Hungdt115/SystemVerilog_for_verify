@@ -1,0 +1,37 @@
+# =====================
+# Simulation logs
+# =====================
+*.log
+*.jou
+*.wdb
+*.wcfg
+*.vcd
+*.fsdb
+*.shm
+*.trn
+*.out
+
+# =====================
+# XSIM / Vivado
+# =====================
+xsim.dir/
+*.pb
+*.wcfg
+*.wdb
+
+# =====================
+# Temporary files
+# =====================
+*.tmp
+*.bak
+*~
+.#*
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

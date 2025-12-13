@@ -73,7 +73,7 @@ echo "--------------------------------------------------"
 echo "----              Simulation start            ----"
 echo "--------------------------------------------------"
 
-xsim $TESTNAME -R --log xvlog_$TESTNAME.log
+xsim $TESTNAME -R --log xsim_$TESTNAME.log
 
 if ($status != 0) then
   echo ""
@@ -84,8 +84,3 @@ endif
 
 mv *.log $ROOT_DIR/log/$CHAPTER/$TESTNAME/
 
-rm -f *.log
-rm -f *.wdb
-rm -f *.pb
-rm -f *.jou
-rm -f *.out
