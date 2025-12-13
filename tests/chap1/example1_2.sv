@@ -45,7 +45,6 @@ module example1_2;
     @(posedge clk)
       PEnable <= 1'b0; 
   endtask
-
 //-----------------------------------------------------------------------------
   initial begin
     // Default values
@@ -60,12 +59,15 @@ module example1_2;
     #100;
     Rst = 1;
 
-    write(16’h50, 32’h50);   // Write data into memory
+    @(posedge clk);
+    write(16'h50, 32'h50);   // Write data into memory
+    
     // Check the result
-    if (top.mem.memory[16’h50] == 32’h50)
+    #10
+    if (dut.mem[16'h50] == 32'h50)
       $display("Success"); 
     else
-      $display("Error, wrong value in memory"); 
+      $display("Error, wrong value in memory" ); 
       
       $finish;
   end 
@@ -77,3 +79,4 @@ module example1_2;
 
 endmodule
 //=============================================================================
+
