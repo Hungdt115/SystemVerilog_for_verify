@@ -1,2 +1,3 @@
 ../src/apb_mem.sv
 ../tests/chap1/example1_1.v
+../tests/chap1/example1_2.sv
