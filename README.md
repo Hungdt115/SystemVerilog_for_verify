@@ -17,7 +17,7 @@ sim_go.csh <chapter_number> <Example_number>
 **Example:** `csh sim_go.csh chap1 1`
 or you can run all the test by run_all.csh
 ```bash
-./run_all.csh
+run_all.csh
 ```
 
 3.  **Clean simulation artifacts:**
